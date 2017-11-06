@@ -49,6 +49,7 @@ BOSH_DEPLOYMENT=./bosh-deployment
 
 source ./iaas/deploy-${IAAS}.sh
 deploy \
+  -o ${BOSH_DEPLOYMENT}/uaa.yml \
   --state=env/${ENV}/state.json \
   --vars-file env/${ENV}/vars.yml \
   --vars-store env/${ENV}/creds.yml

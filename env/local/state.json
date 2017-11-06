@@ -1,17 +1,18 @@
 {
     "director_id": "2f5f806c-bc04-412b-4306-a5615a5c852e",
     "installation_id": "7748228a-b705-4d7b-6373-5f29c8c01218",
-    "current_vm_cid": "vm-d4fa573e-bed8-4d69-64ea-96a8f6552e63",
+    "current_vm_cid": "vm-86a43589-98cf-4dc6-6eb1-9baf7a0dc445",
     "current_stemcell_id": "2246253c-90d9-43a8-7293-118fc9f15041",
     "current_disk_id": "bd3d721b-9304-4d75-5551-5bb0fbd6a743",
     "current_release_ids": [
-        "45b4f80c-5eb5-46ca-6e98-7b6101fb3ac8",
-        "22ab7c30-4119-42da-6604-39c97a1778fc",
-        "722e7c98-93c2-4734-6e6d-e6d2254abbbe",
-        "eb494b3d-b1de-46e9-4bed-303ab254cb63",
-        "ca721fdc-9690-4100-7365-5828bf5fd476"
+        "89ffed7a-6aff-417a-5203-81734f658a89",
+        "b3ea5f84-eda3-4d88-79ec-6caf6ac77026",
+        "6e5ba18b-51c0-4fc5-7f0d-60d255c42929",
+        "55ad08d8-2a56-4a53-6d93-1f2ae1f90f01",
+        "2e10c89e-7858-469b-562d-1f3deb7531a9",
+        "e71f1ec8-07fa-416d-7352-12b6354d404f"
     ],
-    "current_manifest_sha": "d7266cc841f5fd9d9393348ee430c5ac62820f2d169edb11f697f6a37a1ec34fb095c9310963f2aae29ee0eb265ac0c150b35fb47c752a55b3dd07c4a8436fac",
+    "current_manifest_sha": "a815b11f03c486a439c392679db07286a7450199fb752b76410c42b1d56b20ee80edcbb5b59fb6ef5c44008262715db677476b6d1179f15893ed041b2de748a0",
     "disks": [
         {
             "id": "bd3d721b-9304-4d75-5551-5bb0fbd6a743",
@@ -30,29 +31,34 @@
     ],
     "releases": [
         {
-            "id": "45b4f80c-5eb5-46ca-6e98-7b6101fb3ac8",
+            "id": "89ffed7a-6aff-417a-5203-81734f658a89",
             "name": "bosh",
             "version": "263.4.0"
         },
         {
-            "id": "22ab7c30-4119-42da-6604-39c97a1778fc",
+            "id": "b3ea5f84-eda3-4d88-79ec-6caf6ac77026",
             "name": "bosh-virtualbox-cpi",
             "version": "0.0.11"
         },
         {
-            "id": "722e7c98-93c2-4734-6e6d-e6d2254abbbe",
+            "id": "6e5ba18b-51c0-4fc5-7f0d-60d255c42929",
             "name": "bosh-warden-cpi",
             "version": "37"
         },
         {
-            "id": "eb494b3d-b1de-46e9-4bed-303ab254cb63",
+            "id": "55ad08d8-2a56-4a53-6d93-1f2ae1f90f01",
             "name": "os-conf",
             "version": "18"
         },
         {
-            "id": "ca721fdc-9690-4100-7365-5828bf5fd476",
+            "id": "2e10c89e-7858-469b-562d-1f3deb7531a9",
             "name": "garden-runc",
             "version": "1.9.4"
+        },
+        {
+            "id": "e71f1ec8-07fa-416d-7352-12b6354d404f",
+            "name": "uaa",
+            "version": "52.2"
         }
     ]
 }

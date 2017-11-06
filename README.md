@@ -4,6 +4,8 @@ Bootstrap a BOSH Director based on [bosh-deployment](https://github.com/cloudfou
 
 It is similar to [BOSH Bootloader](https://github.com/cloudfoundry/bosh-bootloader) but way simpler (no terraforming etc.) should allow you to easily adjust it to your needs as everything is a shell script.
 
+At the moment we expect that your IaaS is paved. Meaning the networks you configure need to exist before you run the `deploy.sh`
+
 ## Structure
 
 Ensure that the [bosh-deployment](https://github.com/cloudfoundry/bosh-deployment) submodule is checked out before you try to deploy (see `git submodule -h` for details).
