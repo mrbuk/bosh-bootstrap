@@ -52,4 +52,6 @@ deploy \
   -o ${BOSH_DEPLOYMENT}/uaa.yml \
   --state=env/${ENV}/state.json \
   --vars-file env/${ENV}/vars.yml \
-  --vars-store env/${ENV}/creds.yml
+  --vars-file env/${ENV}/${IAAS}.yml \
+  --vars-store env/${ENV}/creds.yml \
+  -o ${BOSH_DEPLOYMENT}/jumpbox-user.yml
