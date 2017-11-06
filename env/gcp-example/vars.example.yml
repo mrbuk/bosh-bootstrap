@@ -1,0 +1,19 @@
+director_name: nonpcf-bosh
+internal_ip: 10.0.0.11
+internal_gw: 10.0.0.1
+internal_cidr: 10.0.0.0/24
+
+project_id: my-gcp-project
+
+# put the "gcp_credentials_json" into the creds.yml so that its encrypted
+# and not checked into GIT unencrypted
+
+service_account: bosh-abc@abc.iam.gserviceaccount.com
+zone: europe-west1-c
+
+# network_name
+network: pcf
+# subnetwork_name
+subnetwork: ops
+
+tags: [tag1, tag2]
