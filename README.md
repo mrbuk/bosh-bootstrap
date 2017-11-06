@@ -60,5 +60,5 @@ All files conforming to that `**/creds.yml` pattern will not be checked in. Cons
 
 To add support for new IaaS simply do the following:
 1. identify all needed parameters e.g. via `grep '((' gcp/cpi.yml` you will besides the standard ones `director_name, internal_ip, internal_gw, internal_cidr`
-1. create a folder for your environment and place a file `env/myenv/vars.yml` with the previously extracted parameters into it
+1. create a folder for your IaaS and place a file e.g. `env/myenv/gcp.yml` with the previously extracted parameters into it
 1. create a IaaS specific deploy script e.g. `iaas/deploy-gcp.sh`
