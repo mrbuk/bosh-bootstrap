@@ -1,0 +1,4 @@
+director_name: bosh-director-name
+internal_cidr:
+internal_gw:
+internal_ip:

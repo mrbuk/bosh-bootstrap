@@ -1,0 +1,16 @@
+# vsphere specific parameters
+
+# please put the properties
+#  vcenter_password:
+#  vcenter_user:
+#
+# into the creds.yml so that its encrypted
+
+network_name:
+vcenter_dc:
+vcenter_ds:
+vcenter_ip:
+vcenter_templates:
+vcenter_vms:
+vcenter_disks:
+vcenter_cluster:
